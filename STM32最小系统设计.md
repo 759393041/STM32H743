@@ -1,3 +1,13 @@
+# 参考资料
+
+多轴传感器:
+
+[浅析：智能设备 3轴、6轴、9轴等多轴传感器的区别 (zhihu.com)](https://www.zhihu.com/tardis/sogou/art/589549496)
+
+JTAG通讯协议原理：
+
+[JTAG的作用和原理分析-电子发烧友网 (elecfans.com)](https://m.elecfans.com/article/696779.html)
+
 # MCU最小系统
 
 MCU：Microcontroller Unit的缩写而来，而单词的中文意思是单片微型计算机，简称就是单片机。
@@ -34,4 +44,8 @@ VDD和VDDA之间一般接一个简单的低通滤波器即可(RC,兀型即可)
 
 ​	滤波器：[深入理解滤波器！降噪的底层原理！滤波器到底是什么？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ri4y1y7yG/?spm_id_from=333.337.search-card.all.click&vd_source=f93c8585ef862d160908fb95eb833f84)
 
-# TO:5：00 STM32最小系统开发
+![image-20231030200919479](assets/image-20231030200919479.png)
+
+通过一个RC低通滤波器滤波器将直流电分为数字电源供电和模拟电源供电
+
+![image-20231030201017075](assets/image-20231030201017075.png)
