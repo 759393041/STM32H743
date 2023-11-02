@@ -20,3 +20,9 @@ SRAM占用=28+1900
 | RO-Data  | Flash             | 只读数据，一般是指 const  修饰的数据 |
 | RW-Data  | Flash and SRAM    | 初值为非 0的可读可写数据             |
 | ZI-Data  | SRAM              | 初值为0  的可读可写数据              |
+
+当然占用了多少Flash和占用了多少个SRAM 可以用后续的.map文件查询
+
+当且仅当0错误才会创建Hex文件，hex文件在工程的OUTPUT文件夹下
+
+而.HEX文件才是供我们开发板下载到里面的文件
