@@ -27,6 +27,10 @@ SRAM占用=28+1900
 
 当然占用了多少Flash和占用了多少个SRAM 可以用后续的.map文件查询
 
+map双击当前工程的文件夹
+
+![image-20231102211000309](assets/image-20231102211000309.png)
+
 当且仅当0错误才会创建Hex文件，hex文件在工程的OUTPUT文件夹下
 
 而.HEX文件才是供我们开发板下载到里面的文件
@@ -34,3 +38,4 @@ SRAM占用=28+1900
 **注意5.37版本后不再带ArmCompiler5的编译器了 所以要自行下载老版本编译器**
 
 [Legacy Arm Compiler 5, 4.1, and RVCT (ACOMP5)](https://developer.arm.com/downloads/view/ACOMP5)
+
