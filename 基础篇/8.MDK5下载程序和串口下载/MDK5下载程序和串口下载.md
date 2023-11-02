@@ -39,3 +39,10 @@ map双击当前工程的文件夹
 
 [Legacy Arm Compiler 5, 4.1, and RVCT (ACOMP5)](https://developer.arm.com/downloads/view/ACOMP5)
 
+# ISP在线系统调试
+
+STM32的ISP下载，常用串口1来下载
+
+因为使用的是USB虚拟串口，所以事先得安装CH340USB虚拟串口驱动(搭配开发环境)
+
+注意PA9是TX引脚 PA10是RX引脚 所以是用短路帽相连以达到错位的效果
