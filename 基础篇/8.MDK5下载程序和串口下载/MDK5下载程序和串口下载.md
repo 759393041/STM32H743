@@ -1,3 +1,7 @@
+# 课堂总结
+
+ [STM32初体验.pdf](STM32初体验.pdf) 
+
 # 部分编译和全局编译
 
 部分编译：如果工程没有编译过，第一次编译是等同于全局编译的效果，但之前编译过的话，只编译与当前文件相关的编译
@@ -28,3 +32,5 @@ SRAM占用=28+1900
 而.HEX文件才是供我们开发板下载到里面的文件
 
 **注意5.37版本后不再带ArmCompiler5的编译器了 所以要自行下载老版本编译器**
+
+[Legacy Arm Compiler 5, 4.1, and RVCT (ACOMP5)](https://developer.arm.com/downloads/view/ACOMP5)
